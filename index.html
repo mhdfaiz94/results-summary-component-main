@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Results summary component</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+  <div class="card">
+    <div class="main">
+      <P style="font-size: 1.2rem;">Your Result</p>
+      <div class="percent">
+        <div class="result">76</div>
+        <div class="pertotal">of 100</div>
+      </div>
+      <p style="font-weight: 700; font-size: 1.5rem;">Great</p>
+      <p>You scored higher than 65% of the people who have taken these tests.</p>
+    </div>
+  
+    <div class="content tab">
+      <P style="font-weight: 700;">Summary</P>
+      <div class="reaction tab">
+        <div class="logo">
+          <img src="assets/images/icon-reaction.svg" alr="assets/images/icon-reaction.svg" /> 
+          <p class="caption">Reaction</P>
+        </div>
+        
+        <div class="score"><span class="actualscore">80</span><span class="per100"> / 100</span></div>
+      </div>
+      <div class="memory tab">
+        <div class="logo">
+          <img src="assets/images/icon-memory.svg" alr="assets/images/icon-reaction.svg" /> 
+          <p class="caption">Memory</P>
+        </div>
+        
+        <div class="score"><span class="actualscore">92</span><span class="per100"> / 100</span></div>
+      </div>
+      <div class="verbal tab">
+        <div class="logo">
+          <img src="assets/images/icon-verbal.svg" alr="assets/images/icon-reaction.svg" /> 
+          <p class="caption">Verbal</P>
+        </div>
+        
+        <div class="score"><span class="actualscore">61</span><span class="per100"> / 100</span></div>
+      </div>
+      <div class="visual tab">
+        <div class="logo">
+          <img src="assets/images/icon-visual.svg" alr="assets/images/icon-reaction.svg" /> 
+          <p class="caption">Visual</P>
+        </div>
+        
+        <div class="score"><span class="actualscore">72</span><span class="per100"> / 100</span></div>
+      </div>
+      <button onclick="clickbutton()">Continue</button>
+    </div> 
+  </div>
+  
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a target="_blank" href="https://www.frontendmentor.io/profile/faizcps">mhdfaiz94</a>.
+  </div>
+  <script>
+    function clickbutton() {
+      alert("you have click continue");
+    }
+  </script>
+</body>
+</html>

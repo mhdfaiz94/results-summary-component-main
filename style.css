@@ -107,9 +107,6 @@ img{
 
 
 @media (min-width:576px) {
-    body{
-        background-color: hsl(221, 100%, 96%);
-    }
 
     .card{
         max-width: 800px;
@@ -120,6 +117,7 @@ img{
         border-radius: 20px;
         overflow: hidden;
         background-color: hsl(0, 0%, 100%);
+        box-shadow: 2px 2px 2px hsl(221, 100%, 96%);
     }
 
     .main{

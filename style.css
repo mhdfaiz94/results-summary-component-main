@@ -107,6 +107,9 @@ img{
 
 
 @media (min-width:576px) {
+    .body{
+        background-color: hsl(0, 0%, 100%);
+    }
 
 
     .card{
